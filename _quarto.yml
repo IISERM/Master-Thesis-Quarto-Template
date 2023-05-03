@@ -11,6 +11,7 @@ book:
   type: thesis
   genre: master
   date: 2023/05/02
+  date-title: "May 2023"
   date-format: long
   cover-image: ./images/HighResolutionLogo.jpg
   chapters:
@@ -32,7 +33,7 @@ format:
       light: yeti
     code-fold: false
     code-tools: true
-    anchor-sections: true    
+    anchor-sections: true
     link-external-icon: true
     smooth-scroll: true
     csl: aip.csl
@@ -42,13 +43,13 @@ format:
     highlight-style: atom-one
     number_sections: true
   pdf:
-    regno: MS18163
+    regno: MS19xxx
     documentclass: scrbook
     fontsize: 12pt
     papersize: a4paper
     #monofont: JuliaMono # Uncomment if using Julia, install JuliaMono
     header-includes: "\\usepackage[list=true]{subcaption}"
-    geometry: 
+    geometry:
       - a4paper
       - left=1.25in
       - right=1in
@@ -69,7 +70,7 @@ format:
     code-block-bg: "#fcf6ef"
     code-block-border-left: "#04a5e5"
     highlight-style: atom-one
-# Remove if you are not using code 
+# Remove if you are not using code
 execute:
   cache: true
   freeze: auto
