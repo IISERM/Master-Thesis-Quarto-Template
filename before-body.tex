@@ -1,0 +1,107 @@
+\newgeometry{top = 2.5in, left = 1.25in, right = 1in, bottom = 1in}
+
+\maketitle
+\pagenumbering{Roman}
+
+
+% Certificate of Examination.
+\begin{center}
+    \textbf{\Large Certificate of Examination}
+\end{center}
+
+This is to certify that the dissertation titled \textbf{$title$} submitted by \textbf{$author$} (Reg. No. $regno$) for the partial fulfillment of BS- MS Dual Degree programme of the institute, has been examined by the thesis committee duly appointed by the institute. The committee finds the work done by the candidate satisfactory and recommends that the report be accepted.
+
+\vspace{3cm}
+
+\begin{center}
+    {\small $TC1$ \hspace{1cm} $TC2$ \hspace{1cm} $TC3$}
+\end{center}
+
+\vspace{5cm}
+
+\begin{flushright}
+    $supervisor$\\
+    (Supervisor)\\
+    \vspace{2.4cm}
+    Dated: $date$
+\end{flushright}
+
+\clearpage
+\begingroup
+    \null
+    \thispagestyle{empty}%
+    \hypersetup{pageanchor=false}%
+    \clearpage
+\endgroup
+
+% Declaration.
+\begin{center}
+    \textbf{\Large Declaration}
+\end{center}
+The work presented in this dissertation has been carried out by me under the guidance of $supervisor$ at the Indian Institute of Science Education and Research, Mohali.
+
+\vspace{0.4cm}
+
+This work has not been submitted in part or in full for a degree, a diploma, or a fellowship to any other university or institute. Whenever contributions of others are involved, every effort is made to indicate this clearly, with due acknowledgement of collaborative research and discussions. This thesis is a bonafide record of original work done by me and all sources listed within have been detailed in the bibliography.
+
+\vspace{2cm}
+
+\begin{flushright}
+$author$\\
+(Candidate)\\
+Dated: $date$
+\end{flushright}
+
+In my capacity as the supervisor of the candidates project work, I certify that the above statements by the candidate are true to the best of my knowledge.
+
+\vspace{2cm}
+
+\begin{flushright}
+$supervisor$\\
+(Supervisor)\\
+Dated: $date$
+\end{flushright}
+
+\clearpage
+\begingroup
+    \null
+    \thispagestyle{empty}%
+    \hypersetup{pageanchor=false}%
+    \clearpage
+\endgroup
+
+\newpage
+\restoregeometry
+
+% Acknowledgements.
+\begin{center}
+\textbf{\Large Acknowledgements}
+\end{center}
+
+\begingroup
+\obeylines
+\input{acknowledgements.txt}%
+\endgroup%
+
+\clearpage
+\begingroup
+    \null
+    \thispagestyle{empty}%
+    \hypersetup{pageanchor=false}%
+    \clearpage
+\endgroup
+
+% Abstract of the Thesis
+\addcontentsline{toc}{chapter}{\textbf{Abstract}}
+\begin{center}
+    \textbf{\Large Abstract}
+\end{center}
+$abstract$
+\newpage
+\clearpage
+\begingroup
+    \null
+    \thispagestyle{empty}%
+    \hypersetup{pageanchor=false}%
+    \clearpage
+\endgroup

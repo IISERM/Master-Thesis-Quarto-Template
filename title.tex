@@ -1,0 +1,35 @@
+\renewcommand*{\maketitle}{%
+\begin{titlepage}
+    \centering
+    \LARGE
+    \textbf{$title$}
+    \vspace{1cm}
+
+    \Large
+    \textbf{$for(authors)$$it.name.literal$$sep$ \and $endfor$}
+    \vspace{1cm}
+    
+    \large
+    \textit{A dissertation submitted for the partial fulfilment of
+    BS-MS dual degree in Science}
+    
+    \vspace{3.5cm}
+
+    \includegraphics[width=8cm]{images/HighResolutionLogo.jpg}
+
+    \vspace{1cm}
+    \large
+    \textbf{Indian Institute of Science Education and Research, Mohali}\\
+    \large
+    \textbf{May 2023}
+\end{titlepage}
+\clearpage
+\begingroup
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \hypersetup{pageanchor=false}%
+    \clearpage
+\endgroup
+}
+

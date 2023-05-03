@@ -1,0 +1,80 @@
+# An Interesting Title
+
+Lots of text and a citation @ortega_discrete-time_2023.
+
+Here is a footnote ^[The footnote]
+
+
+## Markdown Preview
+
+This is a **bold** text, and this is an *italic* text.
+
+## Headers
+
+You can use up to 5 levels of headers in Quarto:
+
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+Heading 1 is reserved for chapter titles, and each chapter MUST come on different pages.
+
+## Lists
+
+You can create ordered and unordered lists:
+
+- Unordered list item 1
+- Unordered list item 2
+- Unordered list item 3
+
+1. Ordered list item 1
+2. Ordered list item 2
+3. Ordered list item 3
+
+## Links
+
+You can create links to web pages or other documents:
+
+This is a [link](https://www.example.com).
+
+## Images
+
+You can also include images in your Markdown document:
+
+![Image description](./images/placeholder.jpg)
+
+## Code
+
+You can display code snippets in your document, with automatic output:
+
+```{python}
+print("Hello, world!")
+```
+
+## Blockquotes
+
+You can create blockquotes to highlight text:
+
+> This is a blockquote.
+
+## Horizontal Rule
+
+You can insert a horizontal rule to separate sections:
+
+---
+
+That's it for this Markdown preview!
+
+::: {.callout-tip}
+
+This is a callout-tip
+
+:::
+
+::: {.callout-warning}
+
+This is a callout-warn
+
+:::

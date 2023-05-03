@@ -1,0 +1,10 @@
+_book
+.jupyter_cache
+_extensions/
+_freeze/
+*_files/
+styles
+/.quarto/
+*.html
+site_libs
+*.ipynb
